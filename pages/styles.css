@@ -11,6 +11,10 @@ body {
     color: #f0f0f0;
 }
 
+div {
+    background-color: aqua;
+}
+
 a:link,
 a:visited {
   color: #f0f0f0;
@@ -28,6 +32,14 @@ a:hover {
   width: 100%;
   padding: 50px;
   background: #213448;
+}
+
+.header-spacing {
+    height: 137px;
+}
+
+.logo {
+    margin-top: 15px;
 }
 
 .menu {
