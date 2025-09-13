@@ -8,12 +8,11 @@ body {
     height: 1200px;
     font-size: 18px;
     font-family: sans-serif;
-    color: #f0f0f0;
 }
 
-div {
+/* div {
     background-color: aqua;
-}
+} */
 
 a:link,
 a:visited {
@@ -44,6 +43,7 @@ a:hover {
 
 .menu {
   margin-top: 15px;
+  color: #f0f0f0;
 }
 
 .menu > li {
