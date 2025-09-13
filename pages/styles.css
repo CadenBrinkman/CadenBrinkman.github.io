@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    height: 1200px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #f0f0f0;
+}
+
+a:link,
+a:visited {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+  padding: 50px;
+  background: #213448;
+}
+
+.menu {
+  margin-top: 15px;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+
+.project-menu {
+    display: none;
+}
+
+.dropdown:hover .project-menu {
+  display: flex;
+  flex-direction: column;
+  background: #748DAE;
+  border-radius: 5px;
+  padding-top: 60px;
+
+  position: absolute;      /* Add these */
+  top: -25px;
+  left: -30px;
+  z-index: 1;
+}
+
+.project-menu li {
+  list-style: none;
+  border-bottom: 1px solid #FFF;
+
+  padding: 0 40px 10px 20px;
+  margin: 10px;
+}
+
+.project-menu li:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > span {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/*Pallet for the website darkest to lightest
+    - 9ECAD6
+    - 748DAE
+    - F5CBCB
+    - FFEAEA
+
+    its a blue to light pinkish vibe
+    Or
+    - 213448
+    - 547792
+    - 94B4C1
+    - ECEFCA
+*/
